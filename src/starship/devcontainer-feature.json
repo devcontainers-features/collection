@@ -1,0 +1,19 @@
+{
+    "id": "starship",
+    "name": "Starship Prompt",
+    "version": "1.23.0",
+    "description": "Starship is fast and highly customizable cross-shell prompt that can display contextual information.",
+    "options": {
+        "version": {
+            "description": "Select the version to install.",
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

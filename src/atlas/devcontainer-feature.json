@@ -1,0 +1,20 @@
+{
+  "id": "atlas",
+  "name": "Atlas CLI",
+  "version": "0.38.0",
+  "documentationURL": "https://github.com/devcontainers-extend/features/tree/main/src/atlas",
+  "description": "Manage your database schema as code.",
+  "options": {
+    "version": {
+      "description": "Select the version to install.",
+      "type": "string",
+      "proposals": [
+        "latest"
+      ],
+      "default": "latest"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
