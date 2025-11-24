@@ -1,0 +1,10 @@
+{
+  "id": "postgresql-client",
+  "name": "PostgreSQL Client",
+  "version": "0.0.1",
+  "description": "PostgreSQL Client is the PostgreSQL interactive terminal.",
+  "options": {},
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
