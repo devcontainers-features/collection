@@ -2,17 +2,17 @@
 set -e
 
 apt_get_update() {
-  if [ "$(find /var/lib/apt/lists/* | wc -l)" = "0" ]; then
-    echo "Running apt-get update..."
-    apt-get update -y
-  fi
+	if [ "$(find /var/lib/apt/lists/* | wc -l)" = "0" ]; then
+		echo "Running apt-get update..."
+		apt-get update -y
+	fi
 }
 
 # Checks if packages are installed and installs them if not
 apt_get() {
-  if ! dpkg -s "$@" >/dev/null 2>&1; then
-    apt-get -y install --no-install-recommends "$@"
-  fi
+	if ! dpkg -s "$@" >/dev/null 2>&1; then
+		apt-get -y install --no-install-recommends "$@"
+	fi
 }
 
 apt_get_update
@@ -26,3 +26,10 @@ curl -fsSL https://opencode.ai/install | bash
 
 # Make opencode available for everybody
 mv "$HOME/.opencode/bin/opencode" /usr/local/bin/opencode
+
+OPENCODE_CONFIG_PATH="$_REMOTE_USER_HOME/.config/opencode"
+
+# Create the global config
+mkdir -p "$OPENCODE_CONFIG_PATH"
+# Copy the configuration
+cp -R files/* "$OPENCODE_CONFIG_PATH"
