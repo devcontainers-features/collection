@@ -1,0 +1,20 @@
+{
+  "id": "nvim",
+  "name": "Neovim",
+  "version": "0.0.1",
+  "description": "Hyperextensible Vim-based text editor.",
+  "documentationURL": "https://github.com/devcontainers-features/collection/tree/main/src/nvim",
+  "options": {
+    "version": {
+      "description": "Select the version to install.",
+      "type": "string",
+      "proposals": [
+        "latest"
+      ],
+      "default": "latest"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
