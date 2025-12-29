@@ -54,3 +54,5 @@ OPENCODE_CONFIG_PATH="$_REMOTE_USER_HOME/.config/opencode"
 mkdir -p "$OPENCODE_CONFIG_PATH"
 # Copy the configuration
 cp -R files/* "$OPENCODE_CONFIG_PATH"
+# Fix ownership
+chown -R "$_REMOTE_USER:$_REMOTE_USER" "$OPENCODE_CONFIG_PATH"

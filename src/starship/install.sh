@@ -19,7 +19,7 @@ apt_get_update
 apt_get ca-certificates
 apt_get curl
 
-# Install Atlas CLI
+# Install Starship
 curl -sSf https://starship.rs/install.sh | sh -s -- -y --version="${VERSION}"
 
 # Copy the configuration

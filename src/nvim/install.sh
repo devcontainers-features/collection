@@ -51,3 +51,23 @@ rm /tmp/nvim-linux.tar.gz
 
 # Make nvim available for everybody
 ln -sf /opt/nvim/bin/nvim /usr/local/bin/nvim
+
+# Install fd and ripgrep
+echo "Installing fd and ripgrep..."
+apt_get fd-find ripgrep
+ln -sf "$(which fdfind)" /usr/local/bin/fd
+
+# Install neovim node package if npm is available
+if command -v npm > /dev/null 2>&1; then
+  echo "Installing neovim npm package..."
+  npm install -g neovim || true
+fi
+
+# Install pynvim if python/pip is available
+if command -v pip3 > /dev/null 2>&1; then
+  echo "Installing pynvim..."
+  pip3 install pynvim 2>/dev/null || pip3 install --break-system-packages pynvim || true
+elif command -v pip > /dev/null 2>&1; then
+  echo "Installing pynvim..."
+  pip install pynvim 2>/dev/null || pip install --break-system-packages pynvim || true
+fi
