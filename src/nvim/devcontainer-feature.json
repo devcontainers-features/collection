@@ -1,9 +1,9 @@
 {
   "id": "nvim",
   "name": "Neovim",
-  "version": "0.0.1",
-  "description": "Hyperextensible Vim-based text editor.",
-  "documentationURL": "https://github.com/devcontainers-features/collection/tree/main/src/nvim",
+  "version": "1.0.0",
+  "description": "Hyperextensible Vim-based text editor with fd, ripgrep, and language providers.",
+  "documentationURL": "https://github.com/devcontainers-features/catalog/tree/main/src/nvim",
   "options": {
     "version": {
       "description": "Select the version to install.",

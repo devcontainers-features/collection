@@ -1,9 +1,9 @@
 {
   "id": "atlas",
-  "name": "Atlas",
-  "version": "0.0.1",
+  "name": "Atlas CLI",
+  "version": "1.0.0",
   "description": "Manage your database schema as code.",
-  "documentationURL": "https://github.com/devcontainers-features/collection/tree/main/src/atlas",
+  "documentationURL": "https://github.com/devcontainers-features/catalog/tree/main/src/atlas",
   "options": {
     "version": {
       "description": "Select the version to install.",

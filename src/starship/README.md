@@ -1,12 +1,12 @@
-# Starship
+# Starship Prompt
 
-A fast and highly customizable cross-shell prompt that can display contextual information.
+A fast, customizable cross-shell prompt with contextual information display.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers-features/collection/starship:1": {
+    "ghcr.io/devcontainers-features/catalog/starship:1": {
         "version": "latest"
     }
 }
@@ -20,4 +20,4 @@ A fast and highly customizable cross-shell prompt that can display contextual in
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json). Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json)._

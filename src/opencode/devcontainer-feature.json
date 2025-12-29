@@ -1,9 +1,9 @@
 {
   "id": "opencode",
   "name": "OpenCode",
-  "version": "0.0.1",
-  "description": "The open source coding agent.",
-  "documentationURL": "https://github.com/devcontainers-features/collection/tree/main/src/opencode",
+  "version": "1.0.0",
+  "description": "An open source AI coding agent for the terminal.",
+  "documentationURL": "https://github.com/devcontainers-features/catalog/tree/main/src/opencode",
   "options": {
     "version": {
       "description": "Select the version to install.",

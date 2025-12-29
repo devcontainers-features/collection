@@ -1,12 +1,12 @@
-# Atlas
+# Atlas CLI
 
-Manage your database schema as code.
+Manage your database schema as code with Atlas.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers-features/collection/atlas:1": {
+    "ghcr.io/devcontainers-features/catalog/atlas:1": {
         "version": "latest"
     }
 }
@@ -20,4 +20,4 @@ Manage your database schema as code.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json). Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json)._

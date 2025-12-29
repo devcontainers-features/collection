@@ -1,15 +1,15 @@
-# Atlas
+# PostgreSQL Client (psql)
 
-PostgreSQL Client is the PostgreSQL interactive terminal.
+Installs the PostgreSQL interactive terminal for connecting to and managing PostgreSQL databases.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers-features/collection/postgresql-client:1": {}
+    "ghcr.io/devcontainers-features/catalog/postgresql-client:1": {}
 }
 ```
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json). Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json)._
